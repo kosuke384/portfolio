@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Hayakawa Kosuke Portfolio</title>
+  <meta name="description" content="Hayakawa Kosukeのポートフォリオ。webサイトやバナーを制作しています。ポートフォリオには、制作したデザインを掲載しております。"/>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="cursor" class="cursor"></div>
+  <header class="header">
+    <div class="header__inner">
+      <div class="logo">
+        <a href="#page-top">
+        <img src="images/logo.png" alt="ロゴ">
+      </a>
+      </div>
+      <div class="ham-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__li"><a href="#about">ABOUT</a></li>
+          <li class="header__li"><a href="works/works.html">WORKS</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="mobile-menu">
+      <ul class="mobile-ul">
+        <li class="mobile-li"><a href="#about">ABOUT</a></li>
+        <li class="mobile-li"><a href="works/works.html">WORKS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="page-top" class="view">
+      <div class="shape">
+      </div>
+      <h1 class="name">Hayakawa Kosuke</h1>
+    </div>
+
+    <section class="about" id="about">
+      <h2 class="sec-title">
+        ABOUT<span>私について</span>
+      </h2>
+      <div class="about__inner">
+        <div class="about__item">
+          <div class="about__img">
+            <img src="images/mouse.png" alt="マウス">
+          </div>
+          <div class="about__content">
+            <h3 class="about__title">design</h3>
+            <p class="about__text">
+              iillustrator,Photoshopによる画像加工やバナーの制作を行えます。
+            </p>
+          </div>
+        </div>
+        <div class="about__item">
+          <div class="about__img">
+            <img src="images/code.png" alt="コード">
+          </div>
+          <div class="about__content">
+            <h3 class="about__title">coding</h3>
+            <p class="about__text">
+              html,cssによるデザインの実現や、javascriptでハンバーガーメニューやスクロールによるアニメーションの実装を行えます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works">
+      <h2 class="sec-title">
+        WORKS<span>作品</span>
+      </h2>
+      <div class="works__inner">
+        <div class="works__item">
+          <a href="./works/works_1.html">
+          <div class="works__img">
+            <img src="./images/housing.png" alt="不動産">
+            <div class="works__title">
+              <h3>housing</h3>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="works__item">
+        <a href="./works/works_2.html">
+          <div class="works__img">
+            <img src="./images/portfolio.png" alt="ポートフォリオ">
+            <div class="works__title">
+              <h3>portfolio</h3>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="works__item">
+          <a href="./works/baner/baner_1.html">
+          <div class="works__img">
+            <img src="./images/sneaker.png" alt="スニーカー">
+            <div class="works__title">
+              <h3>sneaker</h3>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="works__item">
+          <a href="./works/baner/baner_2.html">
+          <div class="works__img">
+            <img src="./images/flight.png" alt="フライト">
+            <div class="works__title">
+              <h3>flight</h3>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="btn">
+        <a href="works/works.html">MORE</a>
+      </div>
+    </section>
+  </main>
+  
+  <div class="page-top">
+    <a href="#page-top">
+    <div class="page-top-area">
+      <img class="rotate" src="images/text.svg" alt="テキスト">
+      <img src="images/arrow.svg" alt="矢印">
+    </div>
+  </a>
+  </div>
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="logo">
+        <a href="#page-top">
+        <img src="images/logo.png" alt="ロゴ">
+      </a>
+      </div>
+      <div class="footer__ul">
+        <li class="footer__li"><a href="#about">ABOUT</a></li>
+        <li class="footer__li"><a href="works/works.html">WORKS</a></li>
+      </div>
+    </div>
+    <small>@2024 Hayakawa Kosuke</small>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 3px;
+  line-height: 32px;
+  color: #171711;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #171717;
+}
+
+html,
+body,
+a {
+  cursor: none;
+  scroll-behavior: smooth;
+}
+
+.req__img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.req__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.req__border {
+  width: 80%;
+  height: 2px;
+  background-color: #171711;
+  margin: 32px auto;
+}
+.req__inner {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.req__link {
+  margin-bottom: 32px;
+  width: 100%;
+}
+.req__link p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.req__link a {
+  word-break: break-all;
+}
+.req__content {
+  margin-bottom: 64px;
+}
+.req__overview {
+  margin-bottom: 48px;
+}
+.req__problem {
+  margin-bottom: 48px;
+}
+.req__target {
+  margin-top: 24px;
+}
+.req__title {
+  margin-bottom: 16px;
+}
+.req__subtitle {
+  margin-bottom: 8px;
+}
+.req__text {
+  margin-bottom: 16px;
+}
+.req__text:last-child {
+  margin-bottom: 0;
+}
+.req__color {
+  display: flex;
+  gap: 32px;
+}
+.req__color .color {
+  width: 50px;
+  height: 50px;
+  background-color: #cae15e;
+}
+.req__color .color:nth-child(2) {
+  background-color: #008000;
+}
+.req__color .color:nth-child(3) {
+  background-color: #171717;
+}
+
+.portfolio .color {
+  background-color: #d2ebf7;
+}
+.portfolio .color:nth-child(2) {
+  background-color: #333333;
+}
+
+.gym .color {
+  background-color: #ffd643;
+}
+.gym .color:nth-child(2) {
+  background-color: #ff3b10;
+}
+.gym .color:nth-child(3) {
+  background-color: #333333;
+}
+
+.fruits .color {
+  background-color: #4a9dc4;
+}
+.fruits .color:nth-child(2) {
+  background-color: #c4c44b;
+}
+.fruits .color:nth-child(3) {
+  background-color: #f22748;
+}
+.fruits .color:nth-child(4) {
+  background-color: #f2ef27;
+}
+.fruits .color:nth-child(5) {
+  background-color: #27f234;
+}
+.fruits .color:nth-child(6) {
+  background-color: #333333;
+}
+
+.sneaker .color {
+  background-color: #ff3325;
+}
+.sneaker .color:nth-child(2) {
+  background-color: #e7251b;
+}
+
+.flight .color {
+  background-color: #0098e6;
+}
+
+.fashion .color {
+  background-color: #e26b44;
+}
+.fashion .color:nth-child(2) {
+  background-color: #d2ebf7;
+}
+
+@media (min-width: 960px) {
+  .req {
+    margin-top: 150px;
+  }
+  .req__img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .req__border {
+    width: 80%;
+    height: 2px;
+    background-color: #171711;
+    margin: 64px auto;
+  }
+  .req__inner {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .site.req__img {
+    width: 80%;
+  }
+}/*# sourceMappingURL=works.css.map */
